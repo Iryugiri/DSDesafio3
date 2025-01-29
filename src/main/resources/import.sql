@@ -1,0 +1,10 @@
+INSERT INTO tb_client (name, cpf, income,  birth_date, children) VALUES ('Laysa Passos Bezerra Pimenta', '21588716520', 1300.10, '2001-07-25', 3);
+INSERT INTO tb_client (name, cpf, income,  birth_date, children) VALUES ('Gleice Paixão Knupp Luques', '32532666560', 2000.00, '1987-12-13', 2);
+INSERT INTO tb_client (name, cpf, income,  birth_date, children) VALUES ('Leandra Silvino Pedroso Brito', '57788886947', 3000.00, '1999-11-12', 4);
+INSERT INTO tb_client (name, cpf, income,  birth_date, children) VALUES ('Fransiscano Frossard Monteiro Jales', '22222305861', 1500.00, '1982-10-14', 3);
+INSERT INTO tb_client (name, cpf, income,  birth_date, children) VALUES ('Tânia Lyrio Hall Bastos', '71777882800', 3500.00, '1984-03-19', 1);
+INSERT INTO tb_client (name, cpf, income,  birth_date, children) VALUES ('Manuela Caruso Matos Mendonça', '26285269050', 5000.00, '1981-04-15', 4);
+INSERT INTO tb_client (name, cpf, income,  birth_date, children) VALUES ('Zélia Manhães Albuquerque Batista', '67730075776', 3200.00, '1993-01-13', 2);
+INSERT INTO tb_client (name, cpf, income,  birth_date, children) VALUES ('Marcele Darmont Campelo Ignacia', '37533156722', 4400.00, '1950-09-28', 3);
+INSERT INTO tb_client (name, cpf, income,  birth_date, children) VALUES ('Caleb Baesso Bezerra Regufe', '68235273667', 2200.00, '1980-08-29', 1);
+INSERT INTO tb_client (name, cpf, income,  birth_date, children) VALUES ('Frank Marques Castelete Carmanin', '33111256146', 2600.00, '1989-06-15', 5);
