@@ -1,15 +1,22 @@
 package com.DSDesafio3.DSDesafio3.DTO;
 
 import com.DSDesafio3.DSDesafio3.entities.Client;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.PastOrPresent;
+import jakarta.validation.constraints.Size;
 
 import java.time.LocalDate;
 
 public class ClientDTO {
 
     private Long id;
+
+    @NotBlank(message = "Campo Requerido")
+    @Size(min = 2, max = 80)
     private String name;
     private String cpf;
     private Double income;
+    @PastOrPresent(message = "data precisa ser menor ou igual a data atual")
     private LocalDate birthDate;
     private Integer children;
 
